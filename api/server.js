@@ -1,7 +1,7 @@
 const express = require('express');
 
-const apiRouter = require('./api-router.js');
-const configureMiddleware = require('./configure-middleware.js');
+const apiRouter = require('./api-router');
+const configureMiddleware = require('./configure-mid');
 
 const server = express();
 
